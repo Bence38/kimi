@@ -23,3 +23,9 @@ for sor in f:
     #print(len(tmp))
 print('3.feladat')
 print(len(lista))
+print('4.feladat : Magyar Nagydíj helyezései:')
+for celba in lista:
+    if celba.nagydij == 'Magyar Nagydíj':
+        if celba.befejezett == "I":
+            print(f'{celba.datum}: {celba.helyezes}helyezés')
+        
