@@ -20,6 +20,6 @@ lista = []
 for sor in f:
     tmp = sor.strip().split(';')
     lista.append(Kimi(tmp[0], tmp[1], tmp[2], tmp[3], tmp[4], tmp[5], tmp[6], tmp[7], tmp[8]))
-
+    #print(len(tmp))
 print('3.feladat')
 print(len(lista))
