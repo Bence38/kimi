@@ -28,8 +28,6 @@ for celba in lista:
     if celba.nagydij == 'Magyar Nagydíj':
         if celba.befejezett == "I":
             print(f'{celba.datum}: {celba.helyezes}helyezés')
-        else:
-            print('N')
 
 print('5.feladat: Hibastatisztika')
 
