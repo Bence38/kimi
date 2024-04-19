@@ -12,3 +12,6 @@ class Kimi:
         self.hiba = hiba
     def __str__(self):
         return f"Nagydíj időpontja: {self.datum} Nagydíj neve: {self.nagydij} Nagydíjon elért helyezése: {self.helyezes} Nagydíj során befejezett körök száma: {self.befejezett} Nagydíjon szerzett pontok {self.pont} Melyik csapat színében versenyzett : {self.konstruktor} Sikeres volt-e a verseny: {self.celba} Körhátrány: {self.korhatrany} Hiba oka : {self.hiba} "
+
+f = open('kimi.csv', 'rt', encoding ='utf 8' )
+f.readline()
