@@ -1,4 +1,3 @@
-print('1.feladat')
 class Kimi:
     def __init__(self,datum, nagydij,helyezes,befejezett,pont,konstruktor,celba,korhatrany,hiba ):
         self.datum = datum
@@ -15,3 +14,12 @@ class Kimi:
 
 f = open('kimi.csv', 'rt', encoding ='utf 8' )
 f.readline()
+
+lista = []
+
+for sor in f:
+    tmp = sor.strip().split(';')
+    lista.append(Kimi(tmp[0], tmp[1], tmp[2], tmp[3], tmp[4], tmp[5], tmp[6], tmp[7], tmp[8]))
+
+print('3.feladat')
+print(len(lista))
